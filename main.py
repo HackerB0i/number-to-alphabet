@@ -18,4 +18,5 @@ print("your generated text is below:")
 text = ""
 for i in range(len(numberlist)):
     text = text + characters[int(numberlist[i])]
+
 print(text)
